@@ -23,10 +23,10 @@ module.exports = {
     foregroundColor: '#fff',
 
     // terminal background color
-    backgroundColor: '#000',
+    backgroundColor: 'rgba(10,26,31,0.5)',
 
     // border color (window, tabs)
-    borderColor: '#ccc',
+    borderColor: '#CCC',
 
     // custom css to embed in the main window
     css: '',
@@ -51,10 +51,10 @@ module.exports = {
     // an array here instead of a color map object
     colors: {
       black: '#000000',
-      red: '#ff4545',
+      red: '#ff0000',
       green: '#33ff00',
       yellow: '#ffff00',
-      blue: '#81c8fd',
+      blue: '#1CB7FF',
       magenta: '#cc00ff',
       cyan: '#00ffff',
       white: '#d0d0d0',
@@ -86,11 +86,11 @@ module.exports = {
     bell: 'SOUND',
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false
+    copyOnSelect: true,
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
-    // quickEdit: true
+    quickEdit: true
 
     // URL to custom bell
     // bellSoundURL: 'http://example.com/bell.mp3',
@@ -104,7 +104,9 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyperpower','hyper-transparent-dynamic'],
+  plugins: [
+    "hyperpower"
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
