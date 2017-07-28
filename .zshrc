@@ -58,7 +58,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 source ~/.aliases
-source ~/itunes.sh
 
 export PATH="$HOME/.fastlane/bin:$PATH"
 
