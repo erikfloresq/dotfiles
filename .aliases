@@ -16,6 +16,7 @@ alias j="jobs"
 
 # programs
 alias atom="open -a atom"
+alias code="open -a Visual\ Studio\ Code"
 alias preview="open -a '$PREVIEW'"
 alias xcode="open -a Xcode.app"
 alias xcodeb="open -a Xcode-beta.app"
