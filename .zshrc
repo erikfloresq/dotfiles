@@ -87,3 +87,6 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Fix white background selection when pasted something
+echo 'unset zle_bracketed_paste' >> ~/.zshrc
