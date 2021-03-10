@@ -35,7 +35,6 @@ alias screen="system_profiler SPDisplaysDataType | grep Resolution"
 alias cpu="sysctl -n machdep.cpu.brand_string"
 
 # general shortcuts
-alias gh="open -a google\ chrome 'http://github.com/erikfloresq'"
 alias gpass="pwgen -Cs 20 1 | tr -d ' ' | tr -d '\n' | pbcopy"
 
 # Apple Developer
