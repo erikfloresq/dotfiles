@@ -15,7 +15,6 @@ alias h="history"
 alias j="jobs"
 
 # programs
-alias atom="open -a atom"
 alias code="open -a Visual\ Studio\ Code"
 alias preview="open -a '$PREVIEW'"
 alias xcode="open -a Xcode.app"
@@ -24,7 +23,6 @@ alias filemerge="open -a FileMerge.app"
 alias safari="open -a safari"
 alias chrome="open -a google\ chrome"
 alias f='open -a Finder'
-alias sk='open -a sketch'
 
 #hardware -- https://github.com/herrbischoff/awesome-osx-command-line
 alias udid="system_profiler SPUSBDataType | sed -n -e '/iPad/,/Serial/p' -e '/iPhone/,/Serial/p'"
